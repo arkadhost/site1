@@ -16,7 +16,7 @@ $run_form =  '<script disable-devtool-auto src="https://fastly.jsdelivr.net/npm/
 
 
 
-
+/*
 $referer = $_SERVER['HTTP_REFERER'];
 $go_two = 'v-cloud.ml';
 	if (strstr( $referer, $go_two)) {
@@ -28,6 +28,8 @@ $go_two = 'v-cloud.ml';
 	}
 
 
-
+*/
+echo  $data[2];
+echo  $meta .$run_form . $form .  $userlang;
 ?>
 
